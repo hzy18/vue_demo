@@ -20,6 +20,6 @@ jobs:
         script: |
           cd /tmp
           git clone https://github.com/hzy18/vue_demo.git
-          cd /tmp/vue-deploy-demo
+          cd /tmp/vue_demo
           chmod +x ./deploy.sh
           ./deploy.sh

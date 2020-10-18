@@ -8,6 +8,6 @@ npm run build
 rm -rf /home/www/*
 
 # 将打包好的文件复制过去
-mv /tmp/vue-deploy-demo/dist/*  /home/www
+mv /tmp/vue_demo/dist/*  /home/www
 # 删除 clone 的代码
-rm -rf /tmp/vue-deploy-demo
+rm -rf /tmp/vue_demo
